@@ -1,0 +1,43 @@
+/*** FONT ***/
+
+@font-face {
+  font-family: 'theomesnil';
+  src: url('../fonts/theomesnil.eot?hlpyix');
+  src: url('../fonts/theomesnil.eot?hlpyix#iefix') format('embedded-opentype'),
+      url('../fonts/theomesnil.ttf?hlpyix') format('truetype'),
+      url('../fonts/theomesnil.woff?hlpyix') format('woff'),
+      url('../fonts/theomesnil.svg?hlpyix#theomesnil') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'theomesnil' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-logo-tm .path1:before {
+    content: "\e900";
+    color: #00A29A;
+    transition: 300ms color ease;
+}
+.icon-logo-tm .path2:before {
+    content: "\e901";
+    margin-left: -1em;
+    color: white;
+    transition: 300ms color ease;
+}
+.icon-article:before {
+    content: "\f038";
+}
+.icon-arrow-left:before {
+    content: "\f060";
+}
+.icon-arrow-right:before {
+    content: "\f061";
+}
