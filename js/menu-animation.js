@@ -1,7 +1,5 @@
-
-
 (function() {
-  navigations = document.querySelectorAll('.navigation');
+  navigations = document.querySelectorAll('.navigation ul');
   [].forEach.call(navigations, function(navigation) {
     [].forEach.call(navigation.children, function(list) {
       currentLi = function(e) {
