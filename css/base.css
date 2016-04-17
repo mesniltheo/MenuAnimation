@@ -84,15 +84,16 @@ header .icon-logo-tm .path2:before {
   margin-top: 50vh;
   transform: translateY(-50%);
 }
-.header-title {
+.header-title h1 {
   width: 100%;
   color: white;
   text-align: center;
   font-size: 45px;
   font-family: 'Montserrat', sans-serif;
   animation-delay: 300ms;
+  margin: 0;
 }
-.header-subtitle {
+.header-subtitle h2 {
   width: 100%;
   max-width: 500px;
   font-size: 18px;
