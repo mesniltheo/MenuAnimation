@@ -23,14 +23,15 @@
 }
 .icon-logo-tm .path1:before {
     content: "\e900";
-    color: #00A29A;
     transition: 300ms color ease;
 }
 .icon-logo-tm .path2:before {
     content: "\e901";
     margin-left: -1em;
-    color: white;
     transition: 300ms color ease;
+}
+.icon-download:before {
+    content: "\f019";
 }
 .icon-article:before {
     content: "\f038";
@@ -40,4 +41,8 @@
 }
 .icon-arrow-right:before {
     content: "\f061";
+}
+.icon-long-arrow-down:before {
+    content: "\f175";
+    transition: 300ms color ease;
 }

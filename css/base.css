@@ -1,0 +1,116 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+  transition: 300ms color ease;
+}
+.no-touchevents a:hover {
+  color: #005550;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+/*** HEADER ***/
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.header-prev, .header-next, .header-bottom, .header-title, .header-subtitle, .header-backhome {
+  opacity: 0;
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  padding: 25px;
+  box-sizing: border-box;
+  font-size: 30px;
+  background: #00A29A;
+  text-align: center;
+}
+header .icon-logo-tm .path1:before {
+  color: #ffffff;
+}
+header .icon-logo-tm .path2:before {
+  color: #00A29A;
+}
+.header-bottom .icon-long-arrow-down:before {
+  color: #ffffff;
+}
+.no-touchevents .header-backhome a:hover .icon-logo-tm .path1:before {
+  color: #005550;
+}
+.no-touchevents .header-backhome a:hover .icon-logo-tm .path2:before {
+  color: white;
+}
+.header-prev {
+  position: absolute;
+  left: 25px;
+  animation-delay: 1200ms;
+  animation-duration: 500ms;
+}
+.header-next {
+  position: absolute;
+  right: 25px;
+  animation-duration: 500ms;
+  animation-delay: 1300ms;
+}
+.header-backhome {
+  position: absolute;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -20px;
+  font-size: 40px;
+  animation-duration: 500ms;
+  animation-delay: 1000ms;
+}
+.header-infos {
+  margin-top: 50vh;
+  transform: translateY(-50%);
+}
+.header-title {
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  margin-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  animation-delay: 300ms;
+}
+.header-subtitle {
+  width: 100%;
+  max-width: 500px;
+  font-size: 18px;
+  color: #c5e1e0;
+  margin: 0 auto;
+  margin-top: 25px;
+  animation-delay: 500ms;
+}
+.header-bottom {
+  position: absolute;
+  left: 50%;
+  margin-left: -6px;
+  bottom: 25px;
+  animation-duration: 500ms;
+  animation-delay: 1500ms;
+}
+@media screen and (min-width: 1024px) {
+
+}
