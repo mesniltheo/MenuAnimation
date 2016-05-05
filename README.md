@@ -58,7 +58,7 @@ Simple animations on element :before for menu hover with CSS3
 
 And push to create a pull request
 
-## ![alt text](https://avatars2.githubusercontent.com/u/11488084?v=3&s=40 "theomesnil.com") About me
+## ![alt text](https://avatars2.githubusercontent.com/u/11488084?v=3&s=25 "theomesnil.com") About me
 
 Follow me on [Twitter](https://twitter.com/theomesnil) - [Github](https://github.com/mesniltheo) -  [Dribbble](https://dribbble.com/theomesnil)
 
