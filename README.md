@@ -3,17 +3,16 @@
 ###### Sandbox
 Simple animations on element :before for menu hover with CSS3
 
-![alt text](http://www.theomesnil.com/data/images/MenuAnimation.gif "theomesnil.com") 
+[Demo](http://www.theomesnil.com/demo/MenuAnimation/) / [Direct Download](http://www.theomesnil.com/demo/MenuAnimation/MenuAnimation.zip)
 
-[Demo](http://www.theomesnil.com/demo/MenuAnimation/)
-[Direct Download](http://www.theomesnil.com/demo/MenuAnimation/MenuAnimation.zip)
+![alt text](http://www.theomesnil.com/data/images/MenuAnimation.gif "theomesnil.com")
 
 ## How to contribute
 
-1 - Fork this repo
-2 - Edit the `index.html` and `menu-animation.css`
+1. Fork this repo
+2. Edit the `index.html` and `menu-animation.css`
 
-#### index.html
+##### index.html
 
 ```html
 <section class="navigation navigation-NEXT-NUMBER">
@@ -28,7 +27,7 @@ Simple animations on element :before for menu hover with CSS3
 </section>
 ```
 
-#### css/menu-animation.css
+##### css/menu-animation.css
 
 ```css
 /***/
@@ -56,10 +55,10 @@ Simple animations on element :before for menu hover with CSS3
   transition: transform 500ms cubic-bezier(.57,1,.3,1.73);
 }
 ```
-3 - Push
+3. Push
 
-## ![alt text](https://avatars2.githubusercontent.com/u/11488084?v=3&s=60 "theomesnil.com")
+## ![alt text](https://avatars2.githubusercontent.com/u/11488084?v=3&s=40 "theomesnil.com")
 
-Follow me on [Twitter](https://twitter.com/theomesnil) [Github](https://github.com/mesniltheo) [Dribbble](https://dribbble.com/theomesnil)
+Follow me on [Twitter](https://twitter.com/theomesnil) - [Github](https://github.com/mesniltheo) -  [Dribbble](https://dribbble.com/theomesnil)
 
 [© Théo Mesnil - 2016](http://www.theomesnil.com)
