@@ -125,6 +125,12 @@ header .icon-logo-tm .path2:before {
   animation-duration: 500ms;
   animation-delay: 1500ms;
 }
+.header-next a, .header-prev a {
+  color: white;
+}
+.header-next a:hover, .header-prev a:hover {
+  color: #005550;
+}
 
 /*** FOOTER ***/
 
