@@ -3,6 +3,8 @@
 ###### Sandbox
 Simple animations on element :before for menu hover with CSS3
 
+![alt text](http://www.theomesnil.com/data/images/MenuAnimation.gif "theomesnil.com") 
+
 [Demo](http://www.theomesnil.com/demo/MenuAnimation/)
 [Direct Download](http://www.theomesnil.com/demo/MenuAnimation/MenuAnimation.zip)
 
@@ -30,12 +32,12 @@ Simple animations on element :before for menu hover with CSS3
 
 ```css
 /***/
-/*** 1 ***/
+/*** NEXT-NUMBER ***/
 
-.navigation-1 li a {
-  transition: color 0.3s ease-in-out;
+.navigation-NEXT-NUMBER li a {
+  transition: color 500ms ease-in-out;
 }
-.navigation-1 li a::before {
+.navigation-NEXT-NUMBER li a::before {
   height: 3px;
   background: #00A29A;
   content: '';
@@ -44,14 +46,14 @@ Simple animations on element :before for menu hover with CSS3
   left: 0;
   width: 100%;
   transform: scale3d(0, 1, 1);
-  transition: transform 0.5s;
+  transition: transform 500ms;
 }
-.navigation-1 li:hover a {
+.navigation-NEXT-NUMBER li:hover a {
   color: #00A29A;
 }
-.navigation-1 li.active a::before {
+.navigation-NEXT-NUMBER li.active a::before {
   transform: scale3d(1, 1, 1);
-  transition: transform 0.5s cubic-bezier(.57,1,.3,1.73);
+  transition: transform 500ms cubic-bezier(.57,1,.3,1.73);
 }
 ```
 3 - Push
